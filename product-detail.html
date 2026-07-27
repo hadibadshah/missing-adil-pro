@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tool Details & Purchase | MissingAdil Store</title>
+    <meta name="description" content="View plan options, warranty details, features, and direct WhatsApp checkout for top digital tools on missingadil.store." />
+    <link rel="stylesheet" href="/src/index.css" />
+  </head>
+  <body class="bg-[#090D16] text-slate-100 min-h-screen flex flex-col antialiased selection:bg-cyan-500 selection:text-slate-950">
+
+    <!-- NAVBAR -->
+    <header class="sticky top-0 z-40 bg-[#090D16]/90 backdrop-blur-xl border-b border-slate-800/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+        
+        <!-- Logo -->
+        <a href="index.html" class="flex items-center gap-3 group">
+          <div class="w-9 h-9 rounded-lg bg-purple-600 flex items-center justify-center font-black text-white text-base shadow-[0_0_15px_rgba(147,51,234,0.5)] group-hover:scale-105 transition-transform">
+            MA
+          </div>
+          <div>
+            <div class="flex items-center gap-1 font-bold text-xl tracking-tight text-white">
+              missingadil<span class="text-purple-500">.store</span>
+            </div>
+            <span class="text-[10px] text-emerald-400 font-medium block -mt-1">● Instant Delivery 24/7</span>
+          </div>
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+          <a href="index.html" class="hover:text-white transition-colors">Home</a>
+          <a href="products.html" class="text-purple-400 font-bold">All Tools</a>
+          <a href="articles.html" class="hover:text-white transition-colors">Guides & Blog</a>
+          <a href="about.html" class="hover:text-white transition-colors">About Us</a>
+          <a href="terms.html" class="hover:text-white transition-colors">Warranty & Terms</a>
+          <a href="contact.html" class="hover:text-white transition-colors">Contact</a>
+        </nav>
+
+        <!-- Right Controls -->
+        <div class="hidden sm:flex items-center gap-4">
+          <select class="currency-select bg-slate-900 border border-slate-700/80 rounded-xl text-xs text-slate-200 px-3 py-2 font-bold cursor-pointer">
+            <option value="USD">USD ($)</option>
+            <option value="PKR">PKR (₨)</option>
+            <option value="INR">INR (₹)</option>
+            <option value="EUR">EUR (€)</option>
+          </select>
+
+          <a href="https://wa.me/923000000000" target="_blank" class="px-4 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 text-white font-bold text-xs shadow-lg shadow-emerald-500/20 transition-all">
+            Live Support
+          </a>
+        </div>
+
+        <button id="mobile-menu-btn" class="md:hidden text-slate-300 hover:text-white p-2 text-2xl">
+          ☰
+        </button>
+      </div>
+
+      <div id="mobile-menu-drawer" class="hidden md:hidden bg-slate-900 border-b border-slate-800 px-6 py-6 space-y-4 text-sm font-semibold">
+        <a href="index.html" class="block text-slate-300">Home</a>
+        <a href="products.html" class="block text-cyan-400">All Tools</a>
+        <a href="articles.html" class="block text-slate-300">Guides & Blog</a>
+        <a href="about.html" class="block text-slate-300">About Us</a>
+        <a href="terms.html" class="block text-slate-300">Warranty & Terms</a>
+        <a href="contact.html" class="block text-slate-300">Contact Support</a>
+      </div>
+    </header>
+
+    <!-- BREADCRUMB -->
+    <div class="bg-slate-950 border-b border-slate-800/80 py-3 text-xs text-slate-400">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center gap-2">
+        <a href="index.html" class="hover:text-white">Home</a>
+        <span>/</span>
+        <a href="products.html" class="hover:text-white">All Tools</a>
+        <span>/</span>
+        <span class="text-cyan-400 font-bold">Tool Details</span>
+      </div>
+    </div>
+
+    <!-- MAIN PRODUCT DETAILS SECTION -->
+    <main class="py-12 bg-[#090D16] flex-1">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div id="product-detail-container">
+          <!-- Populated dynamically via script.js -->
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="mt-auto bg-slate-950 border-t border-slate-800/80 pt-16 pb-12 text-slate-400 text-sm">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+        <div class="space-y-4">
+          <div class="flex items-center gap-2 font-black text-xl text-white">
+            MissingAdil<span class="text-cyan-400">.store</span>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            MissingAdil.store provides genuine shared & private premium access to top AI, video editing, graphic design, and audio tools worldwide.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-white text-xs uppercase tracking-wider mb-4">Quick Links</h4>
+          <ul class="space-y-2.5 text-xs">
+            <li><a href="index.html" class="hover:text-cyan-400">Home</a></li>
+            <li><a href="products.html" class="hover:text-cyan-400">All Digital Tools</a></li>
+            <li><a href="articles.html" class="hover:text-cyan-400">Blog & Tutorials</a></li>
+            <li><a href="about.html" class="hover:text-cyan-400">About MissingAdil Store</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-white text-xs uppercase tracking-wider mb-4">Legal & Policies</h4>
+          <ul class="space-y-2.5 text-xs">
+            <li><a href="terms.html" class="hover:text-cyan-400">Replacement Warranty Policy</a></li>
+            <li><a href="terms.html" class="hover:text-cyan-400">Terms of Service</a></li>
+            <li><a href="privacy.html" class="hover:text-cyan-400">Privacy Policy</a></li>
+            <li><a href="contact.html" class="hover:text-cyan-400">Contact & Support</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-white text-xs uppercase tracking-wider mb-4">Live Support</h4>
+          <a href="https://wa.me/923000000000" target="_blank" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold hover:bg-emerald-500/20 transition-all">
+            💬 WhatsApp Support 24/7
+          </a>
+        </div>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-slate-900 text-center text-xs text-slate-500">
+        © 2026 missingadil.store. All rights reserved.
+      </div>
+    </footer>
+
+    <!-- TOAST CONTAINER -->
+    <div id="toast-container" class="fixed bottom-6 right-6 z-50 flex flex-col gap-2 pointer-events-none"></div>
+
+    <script type="module" src="/src/script.js"></script>
+  </body>
+</html>

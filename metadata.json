@@ -1,0 +1,6 @@
+{
+  "name": "MissingAdil Store - Digital Tools Marketplace",
+  "description": "Multi-page digital tools store for missingadil.store selling instant premium & shared access to CapCut Pro, ChatGPT Plus, Gemini, ElevenLabs, Grok 3, and top AI tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
